@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    padding-left: 50px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.navbar a {
+    font-size: 2rem;
+}
+
+.head-jumbotron {
+    height: 100vh;
+    background-color: rgb(67, 196, 255);
+}
+
+.inner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Poppins;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: aliceblue;
+}
+
+.jumbotron h1 {
+    font-weight: 700;
+    width: 100%;
+    font-size: 5em;
+}
+
+.jumbotron p {
+    padding-top: 15px;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.jumbotron a {
+    margin-top: 20px;
+    padding: 20px 70px 20px 70px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.3em;
+    color: rgb(67, 196, 255);
+}
+
+.content-jumbotron{
+    background-color: transparent;
+}
+
+.inner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.inner-content h2{
+    font-weight: 700;
+}
+
+.inner-content p{
+    width: 40%;
+    margin-top: 25px;
+}
+
+.container-grid{
+    display: grid;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.container-grid h3{
+    margin-top: 20px;
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+}
+
+.container-grid p{
+    padding: 0;
+}
+
+.row-content{
+    grid-gap: 10em;
+}
+
+.row img{
+    width: 300px;
+    gap: 50px;
+}
+
+.footer{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    height: 50vh;
+    padding: 40px;
+}
+
+
+
+.row-footer h2{
+    margin: 0;
+    color: rgb(37, 37, 37);
+    font-size: 1.5em;
+}
+
+.row-footer img{
+    width: 80px;
+    margin-top: 30px;
+}
+
