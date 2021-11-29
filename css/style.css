@@ -68,6 +68,7 @@ body {
 
 .inner-content h2{
     font-weight: 700;
+    color: rgb(0, 162, 255);
 }
 
 .inner-content p{
@@ -108,8 +109,8 @@ body {
     justify-items: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(228, 228, 228);
     height: 50vh;
+    background-color: rgb(228, 228, 228);
     padding: 40px;
 }
 
@@ -117,8 +118,9 @@ body {
 
 .row-footer h2{
     margin: 0;
-    color: rgb(37, 37, 37);
+    color: rgb(17, 17, 17);
     font-size: 1.5em;
+    padding-top: 20;
 }
 
 .row-footer img{
@@ -126,3 +128,17 @@ body {
     margin-top: 30px;
 }
 
+@media only screen and (max-width: 420px) {
+    .jumbotron h1{
+        font-size: 3em;
+        padding-top: 90px;
+    }
+
+    .jumbotron a{
+        padding: 20px 50px 20px 50px;
+    }
+
+    
+
+
+}
